@@ -1,0 +1,63 @@
+﻿@import url("bootstrap.css");
+#login
+{
+    background: url(photos/log7.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 103% 103%;
+}
+
+.frmlr {
+		width: 340px;
+		height: 450px;
+		margin: 50px auto;
+	}
+ form {
+		
+		background: #ffffff;
+		padding: 30px;
+	}
+ h2 {
+		margin: 0 0 15px;
+	}
+	.btn {
+		min-height: 38px;
+		border-radius: 2px;
+		font-size: 15px;
+		font-weight: bold;
+		margin-top: 60px;
+		
+	}
+	.form-control{
+		background-color: #f2f2f2;
+	}
+
+
+ .logomov3{
+    
+  position: fixed;
+top: 430px;
+left: 26px;
+}
+ img.img
+    {
+      from
+
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    }
+      img.img
+    {
+
+         -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    }
+    @-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+    }
+

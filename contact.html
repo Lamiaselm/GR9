@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  <link rel="stylesheet" type="text/css" href="css/style2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="js/interface.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</head>
+<style >
+  
+#contact { 
+  background: url(css/photos/conyactez5.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  background-color: #FFFFFF;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+
+
+
+<body id="contact">
+
+
+    <div id="nav">
+    <div class="navbar-header">
+   <div id="logo"> <img src="css/photos/logo4.png" style="padding-top: 0px" width="60" height="70"></div> 
+    </div>
+        <ul class="nav navbar-nav  " style="padding-left: 400px">
+      <li style="padding-top: 20px" class="active"><a href="Home.html">
+          <font id="event" face="arabswell_1" size="+1.8" color="#DBD9D9"> <span class="  glyphicon glyphicon-home" aria-hidden="true"></span> &nbsp; Accueil</font>
+        </a></li>
+      <li style="padding-top: 20px"><a href="info_salle.html">
+          <font id="event" face="arabswell_1" size="+1.8" color="#DBD9D9"> <span class="  
+        glyphicon glyphicon-info-sign" aria-hidden="true"></span> &nbsp; Info salle </font>
+        </a></li>
+      <li style="padding-top: 20px"><a href="contact.html">
+          <font id="event" face="arabswell_1" size="+1.8" color="#DBD9D9"> <span class="  glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp; Contact </font>
+        </a></li>
+       
+    </ul>
+    <ul class="nav navbar-nav navbar-right" style="padding-right: 80px">
+      <li style="padding-top: 20px"><a href="login.php"><span class="glyphicon glyphicon-log-in"></span>
+          <font face="arabswell_1" size="+1.8" color="#DBD9D9"> Log In </font>
+        </a></li>
+    </ul>
+  </div>
+
+
+  
+
+
+  <!-- Bootstrap core JavaScript -->
+ <script>
+    //Hauteur du jumbotron
+    var hauteurJumbotron = $('.jumbotron').outerHeight();
+    //Fonction appelée au scroll de la souris
+    function parallax() {
+      //On calcule la distance de scroll, puis on réduit la taille du container du jumbotron en fonction de cette distance.
+      var scrolled = $(window).scrollTop();
+      $('.fond').css('height', (hauterJumbotron - scrolled) + 'px');
+    }
+    //Ajout de la fonction à l'événement scroll
+    $(window).scroll(function(e) {
+      parallax();
+    });
+  </script>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="js/interface.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+ 
+</body>
+
+</html>
